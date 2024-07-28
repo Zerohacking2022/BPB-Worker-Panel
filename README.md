@@ -1,72 +1,115 @@
-<h1 align="center">💦 BPB Panel</h1>
+<h1 align="center">💦 پنل BPB</h1>
 
-### 🌏 Readme in [Farsi](README_fa.md)
+
 
 <p align="center">
   <img src="docs/assets/images/Panel.jpg">
 </p>
 <br>
 
-## Introduction
-This project is dedicated to developing a user panel for the [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk). The panel offers two deployment options: 
-- **Worker** deployment
-- **Pages** deployment
+## معرفی
+
+این پروژه توسعه‌ی یک پنل کاربری برای اسکریپت <a href="https://github.com/yonggekkk/Cloudflare-workers-pages-vless">پروکسی Cloudflare-workers/pages</a> ایجاد شده توسط <a href="https://github.com/yonggekkk">yonggekkk</a> می‌باشد.
+
+### این پنل به دو روش راه‌اندازی می‌شود:
+
+- راه‌اندازی با **Cloudflare Worker**
+- راه‌اندازی با **Cloudflare Worker**
 <br>
 
-🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
-- **USDT (BEP20):** `0x111EFF917E7cf4b0BfC99Edffd8F1AbC2b23d158`
+🌟 اگر پروژه‌ی **BPB Panel** براتون مفید بوده، حمایت شما مایه‌ی دلگرمی من هست 🌟
+<ul dir="rtl">
+  <li><code>0x111EFF917E7cf4b0BfC99Edffd8F1AbC2b23d158</code> <strong>:USDT (BEP20)</strong></li>
+</ul>
 
-## Features
+## ویژگی‌ها
+<br>
+<ol dir="rtl">
+  <li><strong>رایگان</strong></li>
+  <li><strong>پنل کاربری راحت:</strong> قابلیت آسان تنظیمات و دریافت کانفیگ ها و لینک های اشتراک.</li>
+  <li><strong>پشتیبانی از فرگمنت:</strong> قابل استفاده حتی در صورت فیلتر شدن دامنه.</li>
+  <li><strong>مسدودسازی تبلیغات (اختیاری):</strong> گزینه‌ای برای مسدودسازی تبلیغات ایرانی و خارجی.</li>
+  <li><strong>دسترسی مستقیم به ایران (اختیاری):</strong> شامل یک گزینه برای دسترسی مستقیم به سایت های ایران بدون قطع VPN.</li>
+  <li><strong>مسیریابی کامل Sing-box:</strong> شامل دور زدن سایت‌های ایرانی، مسدودسازی Malware، Phishing و تبلیغات ایرانی و خارجی.</li>
+  <li><strong>زنجیره‌ی Proxy:</strong> قابلیت اضافه کردن Proxy خروجی جهت تثبیت IP.</li>
+  <li><strong>پشتیبانی از طیف وسیعی از برنامه‌ها:</strong> لینک‌های اشتراک را برای انواع نرم افزار ها با هسته‌های Xray و Sing-box ارائه می‌دهد.</li>
+  <li><strong>لینک اشتراک (JSON):</strong> لینک‌ اشتراک کانفیگ‌های فرگمنت را در فرمت JSON فراهم می‌کند.</li>
+  <li><strong>پنل با رمز عبور محافظت شده:</strong> ایمن‌سازی پنل با استفاده از رمز عبور.</li>
+  <li><strong>دامنه و IP تمیز Cloudflare سفارشی:</strong> قابلیت اسکن آنلاین و تنظیم IP یا دامنه‌ی تمیز Cloudflare را دارد.</li>
+  <li><strong>سابسکریپشن Warp: </strong>ارائه‌ی کانفیگ‌های Warp و Warp on Warp همراه اسکنر Endpoint</li>
+</ol>
+<br><br>
 
-1. **Free**: No cost involved.
-2. **User-Friendly Panel:** Designed for easy navigation, configuration and usage.
-3. **Support Fragment:** Provides support for fragment functionality.
-4. **Block Ads. and Porn (Optional)**
-5. **Bypass Iran and LAN (Optional)**
-6. **Full routing rules:** Bypassing Iran, Blocking Ads, Malwares, Phishing... for Sing-box.
-7. **Chain Proxy:** Capable of adding a chain proxy to fix IP.
-8. **Supports Wide Range of Clients:** Offers subscription links for Xray and Sing-box core clients.
-9. **Subscription Link (JSON):** Provides subscription link for JSON configs.
-10. **Password-Protected Panel:** Secure your panel with password protection.
-11. **Custom Cloudflare Clean IP:** Ability to use online scanner and setting up clean IP-domains.
-12. **Warp configs:** Provides Warp and Warp on Warp subscription.
+## نحوه‌ی راه‌اندازی، تنظیمات و استفاده
+- [نصب به صورت Pages](docs/pages_installation_fa.md)
+- [نصب به صورت Worker](docs/worker_installation_fa.md)
+- [نحوه استفاده از پنل](docs/configuration_fa.md)
+- [پرسش‌های متداول (FAQ)](docs/faq.md)
 <br>
 
-## How to use:
-- [Installation (Pages)](docs/pages_installation_fa.md)
+## برنامه‌های پشتیبانی شده
+<div dir="rtl">
+<table>
+  <thead>
+    <th>برنامه</th>
+    <th>ورژن</th>
+    <th>فرکمنت</th>
+  </thead>
+  <tbody  align="center">
+    <tr>
+      <td><b>v2rayNG</b></td>
+      <td>1.8.19 و بالاتر</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>v2rayN</b></td>
+      <td>6.42 و بالاتر</td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>Nekobox</b></td>
+      <td></td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><b>Sing-box</b></td>
+      <td>1.8.10 و بالاتر</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><b>Streisand</b></td>
+      <td></td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>V2Box</b></td>
+      <td></td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><b>Shadowrocket</b></td>
+      <td></td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td><b>Nekoray</b></td>
+      <td></td>
+      <td>✔️</td>
+    </tr>
+    <tr>
+      <td><b>Hiddify</b></td>
+      <td></td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-- [Installation (Worker)](docs/worker_installation_fa.md)
+---
+## تعداد ستاره‌ها به مرور زمان
 
-- [How to use](docs/configuration_fa.md)
-
-- [FAQ](docs/faq.md)
-<br>
-
-## Supported Clients
-| Client  | Version | Fragment |
-| :-------------: | :-------------: | :-------------: |
-| **v2rayNG**  | 1.8.19 or higher  | :heavy_check_mark: |
-| **v2rayN**  | 6.42 or higher  | :heavy_check_mark: |
-| **Nekobox**  |   | :x: |
-| **Sing-box**  | 1.8.10 or higher  | :x: |
-| **Streisand**  |   | :heavy_check_mark: |
-| **V2Box**  |   | :x: |
-| **Shadowrocket**  |   | :x: |
-| **Nekoray**  |   | :heavy_check_mark: |
-| **Hiddify**  |   | :x: |
-
+[![تعداد ستاره‌ها به مرور زمان](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
 
 ---
 
-## Stargazers Over Time
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
----
-
-### Special Thanks
-- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
-- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
-
----
-
-For a detailed tutorial on the core script, please refer to [Yongge’s blog and video tutorials](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html).
+برای آموزش جزئیات اسکریپت اصلی، لطفاً به <a href="https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html">وبلاگ و آموزش‌های ویدیویی Yongge</a> مراجعه کنید.
